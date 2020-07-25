@@ -1,0 +1,6 @@
+{
+    "presets": ["@babel/preset-env"]
+}
+//configuração do babel. 
+
+// FUNÇÃO DO BABEL: fazer com que todas os navegadores entendam meu código.

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS</title>
+</head>
+<body>
+    
+
+
+    <script>
+        //javascript
+
+        var nome = 'André';
+        var idade = 23;
+        var peso = 75.5;
+        var humano = true;
+
+        var alunos = ['André', 'Ana', 'Helô']
+
+        var aluno = {
+
+            nome: 'Helô',
+            idade: 0.1,
+            peso: 2,
+            humano: true,
+
+        }
+
+        function retornaSexo(sexo) {
+
+            switch (sexo) {
+
+                case 'M':
+                    return 'Masculino';
+                case 'F':
+                    return 'Feminino';
+                default:
+                    return 'Outros';
+
+            }
+
+        }
+
+        var resultado = retornaSexo('M');
+
+
+        // condição ternária:
+
+        //=>
+            var sexo = 'M';
+
+            var result = (sexo === 'M') ? 'Masculino' : 'Feminino';
+
+
+
+
+        // intervalo e timeOut
+        var count = 1;
+        function exibeAlgo() {
+            //console.log(`Estou contando os segundos: ${count}`)
+            count++;
+        }
+        
+        //setInterval(exibeAlgo, 1000);
+    </script>
+</body>
+</html>
